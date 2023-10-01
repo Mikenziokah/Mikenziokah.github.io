@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #76bc26;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header {
+    background-color: #ded4d4;
+    color: #811212;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  header h1 {
+    background-color: rgba(17, 81, 74, 0.01); /* Background color with transparency */
+    padding: 5px;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #510a1b;
+    color: #dacfcf;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .phone-content {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .phone-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .phone-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .phone-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .phone-card {
+    background-color: #1f5f93;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .phone-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .phone-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .phone-card .specs {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .phone-card ul {
+    margin-bottom: 10px;
+  }
+  
+  .phone-card li {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .phone-card .price {
+    font-weight: bold;
+  }
+
+  .shop-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+#cart {
+    background-color: #7cc60d;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(108, 13, 81, 0.1);
+  }
+  
+  #cart h2 {
+    margin-bottom: 10px;
+  }
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cart-items li {
+    margin-bottom: 10px;
+  }
+  
+  .home-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  .navigation-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+  
+  .navigation-button:hover {
+    background-color: #007BFF;
+  }
+  
+  .navigation-button:first-child {
+    background-color: #0056b3;
+  }
+  
+  .navigation-button:first-child:hover {
+    background-color: #003366;
+  }
+
+  .contact-content {
+    padding: 20px;
+  }
+  
+  .contact-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .logo {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  header {
+    background-image: url('signet/shops1.jpg'); /* Replace with the actual path to your image */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top left;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
