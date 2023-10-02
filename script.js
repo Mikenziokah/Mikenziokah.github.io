@@ -27,3 +27,12 @@ function closeCart() {
 function callSupport() {
     alert('Calling support...');  // Simulate a call by displaying an alert
   }
+function togglePhoneList(manufacturer) {
+      const phoneLists = document.querySelectorAll('.phone-list');
+      phoneLists.forEach(list => {
+        list.classList.remove('active');
+      });
+
+      const manufacturerPhones = document.getElementById(`${manufacturer}-phones`);
+      manufacturerPhones.classList.add('active');
+    }
